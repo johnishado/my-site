@@ -1,0 +1,89 @@
+ body{
+           background-color:skyblue;
+           padding: 5px 0 0 50px;
+
+        
+
+       }
+       #topbar{
+           background-color:blue;
+           width:100%;
+           height:40Px;
+            margin:0 auto;
+            color: white;
+            padding: 0;
+       }
+      .fixedwidth{
+          
+           width:1050px;
+           margin: 0 auto;
+      }
+           
+       #menu{
+           float:left;  
+       }
+       #menu ul{
+           margin-top:20px;
+           padding:0;
+           margin:0;
+             
+       }
+       #menu li{
+            text-decoration: none;
+            color: white;
+           list-style:none;
+           /*display: inline;*/
+           font-weight: bold;
+           font-size: 4;
+            border-right:1px solid red;
+            height: 20px ;
+            padding:10px 10px 10px 10px;
+            float:left;  
+       }
+       #menu a{
+            text-decoration: none;
+            color: white;
+       }
+        #searchbar{
+           float: left;
+           padding:5px 0 0 100px;
+       }
+       #searchbar input{
+           height: 12px;
+           width: 200px;
+           border:none;
+           padding: 10px;
+           font-size:2;
+           background-image: url("images/ba.png");
+           background-repeat: no-repeat;
+           background-position:right center; 
+       }
+       h1{
+         
+           float: left;
+           text-decoration: none;
+           
+       }
+       #picture{
+           float:left;
+           padding:60px 0 0 20px;
+           width: 40px;
+           height: 100px;
+       }
+       h2{
+           text-align: center;
+           background-color: burlywood;
+           height: 100px;
+           color: white;
+          
+       }
+       a:hover{
+           text-decoration: none;
+           color: red;
+       }
+      /* #menu a:hover{
+           text-decoration:underline;
+           color:red;
+
+            }*/
+        
