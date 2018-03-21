@@ -3,7 +3,7 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Register</title>
+            <title>Login</title>
         <style>
                 .signup {
                     border:12px solid #999999;
@@ -45,22 +45,15 @@
             </div>
      <center>
         <table border="4" cellpadding="10" cellspacing="20" bgcolor="#eeeeee">
-            <th colspan="2" align="center">Registration Form</th>
-            <form method="post" action="adduser.php" onsubmit="return validate(this)">
-                <tr><td>Firstname</td>
-                <td><input type="text" maxlength="32" name="firstname"></td></tr>
-                <tr><td>Surname</td>
-                <td><input type="text" maxlength="32" name="surname"></td></tr>
+            <th colspan="2" align="center">Login Page</th>
+            <form method="post" action="login.php" onsubmit="return validate(this)">
+                
                 <tr><td>Username</td>
                 <td><input type="text" maxlength="16" name="username"></td></tr>
                 <tr><td>Password</td>
                 <td><input type="password" maxlength="12" name="password"></td></tr>
-                <tr><td>Age</td>
-                <td><input type="text" maxlength="3" name="age"></td></tr>
-                <tr><td>Email</td>
-                <td><input type="text" maxlength="64" name="email"></td></tr>
-                <tr><td colspan="2" align="center"><input type="submit" name="signup"
-                value="Register"></td></tr>
+                <tr><td colspan="2" align="center"><input type="submit" name="Login"
+                value="Login"></td></tr>
             </form>
         </table>
         </center>

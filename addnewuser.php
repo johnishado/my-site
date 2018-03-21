@@ -50,7 +50,7 @@
                 <td><input type="text" maxlength="3" name="age"></td></tr>
                 <tr><td>Email</td>
                 <td><input type="text" maxlength="64" name="email"></td></tr>
-                <tr><td colspan="2" align="center"><input type="submit"
+                <tr><td colspan="2" align="center"><input type="submit" name="signup"
                 value="Signup"></td></tr>
             </form>
         </table>

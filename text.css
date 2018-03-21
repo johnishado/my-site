@@ -81,9 +81,8 @@
            text-decoration: none;
            color: red;
        }
-      /* #menu a:hover{
-           text-decoration:underline;
-           color:red;
-
-            }*/
+      textarea{
+          height: 100px;
+          width: 400px;
+      }
         
